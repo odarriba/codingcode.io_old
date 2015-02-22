@@ -3,8 +3,17 @@
 ---
 @charset "utf-8";
 
-body{
+$footer-height: 160px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
 	padding-top: 50px;
+	/* Margin bottom by footer height */
+  	margin-bottom: $footer-height !important;
 }
 
 .footer {
@@ -12,7 +21,7 @@ body{
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
+  height: $footer-height;
   background-color: #f5f5f5;
   border-top: 2px solid #ccc;
 }
