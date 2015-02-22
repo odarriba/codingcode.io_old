@@ -167,7 +167,7 @@ table,
 
 .progress {
   height: 8px;
-  @include box-shadow(none);
+  //@include box-shadow(none);
   .progress-bar {
     font-size: 8px;
     line-height: 8px;
