@@ -37,7 +37,12 @@ body {
   width: 100%;
 
   background-color: #f2f2f2;
-  border-top: 2px solid #ccc;
+  border-top: 2px solid #999;
+
+  .text {
+    font-weight: bold;
+    color: #333;
+  }
 
   /* Social icons on the footer */
   .social-icons {
