@@ -3,32 +3,105 @@
 ---
 @charset "utf-8";
 
-$footer-height: 160px;
+@import "variables";
 
+/*=================*/
+/* THEME VARIABLES */
+/*=================*/
+$footer-height: 85px;
+$footer-condensed-height: 107px;
+
+
+/*===================*/
+/* THEME DEFINITIONS */
+/*===================*/
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-	padding-top: 50px;
-	/* Margin bottom by footer height */
-  	margin-bottom: $footer-height !important;
+  padding-top: 50px;
+  /* Margin bottom by footer height */
+  @media(min-width:$screen-sm-min) {
+    margin-bottom: $footer-height !important;
+  }
+  @media(max-width:$screen-sm) {
+    margin-bottom: $footer-condensed-height !important;
+  }
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: $footer-height;
-  background-color: #f5f5f5;
+
+  background-color: #f2f2f2;
   border-top: 2px solid #ccc;
+
+  /* Social icons on the footer */
+  .social-icons {
+    font-size: 32px;
+
+    a {
+      margin-left: 5px;
+    }
+  }
+
+  @media(min-width:$screen-sm-min) {
+    height: $footer-height;
+    padding: 20px 0;
+
+    .text {
+      float: left;
+    }
+
+    .social-icons {
+      float: right;
+    }
+  }
+
+  @media(max-width:$screen-sm) {
+    height: $footer-condensed-height;
+    padding: 10px 0;
+    
+    .text, .social-icons {
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+/* General social icon colors */
+.social-icons {
+  /* Don't act like any other link */
+  a:link, a:active, a:hover, a:visited {
+    text-decoration: none;
+  }
+
+  .fa-github {
+    color: #000;
+  }
+
+  .fa-twitter {
+    color: #00aced;
+  }
+
+  .fa-facebook-official, .fa-facebook {
+    color: #3b5998;
+  }
+
+  .fa-youtube {
+    color: #bb0000;
+  }
+
+  .fa-linkedin-square, .fa-linkedin {
+    color: #007bb6;
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "variables",
-    "bootstrap",
+@import "bootstrap",
     "bootswatch",
     "syntax-highlighting"
 ;

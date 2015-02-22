@@ -1,37 +1,41 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <h2 class="footer-heading">{{ site.title }}</h2>
-        <ul class="contact-list">
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+      <div class="col-sm-8">
+      	<span class="text">
+        	Proudly powered by <a href="http://jekyllrb.com/">Jekyll</a> & <a href="{{site.site_repository}}">GitHub Pages</a>.<br />
+        	&copy; 2015 - <a href="mailto:{{site.email}}">{{site.author}}</a>
+        </span>
       </div>
-
-      <div class="col-md-4">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            <a href="https://github.com/{{ site.github_username }}">
-              <i class="fa fa-github"></i><span class="username">{{ site.github_username }}</span>
-            </a>
-          </li>
+      <div class="col-sm-4">
+        <span class='social-icons'>
+          {% if site.social.github_username %}
+          <a href="https://github.com/{{ site.social.github_username }}" target="_blank">
+          	<i class="fa fa-github"></i>
+          </a>
           {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <i class="fa fa-twitter"></i><span class="username">{{ site.twitter_username }}</span>
-            </a>
-          </li>
+          {% if site.social.twitter_username %}
+          <a href="https://twitter.com/{{ site.social.twitter_username }}" target="_blank">
+          	<i class="fa fa-twitter"></i>
+          </a>
           {% endif %}
-        </ul>
+          {% if site.social.facebook_username %}
+          <a href="https://facebook.com/{{ site.social.facebook_username }}" target="_blank">
+          	<i class="fa fa-facebook-official"></i>
+          </a>
+          {% endif %}
+          {% if site.social.youtube_username %}
+          <a href="https://www.youtube.com/user/{{ site.social.youtube_username }}" target="_blank">
+          	<i class="fa fa-youtube"></i>
+          </a>
+          {% endif %}
+          {% if site.social.linkedin_username %}
+          <a href="https://www.linkedin.com/in/{{ site.social.linkedin_username }}" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+          {% endif %}
+        </span>
       </div>
-      <div class="col-md-4">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
+    </div><!-- row -->
+  </div> <!-- container -->
 </footer>

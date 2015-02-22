@@ -1,12 +1,20 @@
 # Site settings
 title: Coding code
-email: odarriba@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   A blog about coding
+url: "http://codingcode.io" # the base hostname & protocol of the site
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://codingcode.io" # the base hostname & protocol for your site
-twitter_username: odarriba
-github_username:  odarriba
+site_repository: "https://github.com/odarriba/codingcode.io"
+
+author: Óscar de Arriba
+email: odarriba@gmail.com
+
+social:
+  twitter_username: odarriba
+  github_username: odarriba
+  facebook_username: odarriba
+  youtube_username: odarriba
+  linkedin_username: oscardearriba
 
 # Build settings
 markdown: kramdown
