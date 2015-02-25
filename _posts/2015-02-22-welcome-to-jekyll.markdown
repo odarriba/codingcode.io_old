@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-02-22 12:46:39
+author: odarriba
 comments: true
 categories: jekyll update
 ---

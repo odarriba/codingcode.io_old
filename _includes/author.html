@@ -1,0 +1,38 @@
+{% assign author = site.authors[page.author] %}
+<div class="author clearfix">
+  <h2 class='title'>Who wrote this content</h2>
+  <div class="image pull-left">
+    <img src="{{ site.authors[page.author].image | prepend: site.baseurl }}" class="img-circle" />
+  </div>
+  <div class="data pull-left">
+    <h3 class="name">{{ author.name }}</h3>
+    <div class="description">{{ author.description }}</div>
+    <div class='social-icons'>
+      {% if author.github_username %}
+      <a href="https://github.com/{{ author.github_username }}" target="_blank" title="GitHub">
+        <i class="fa fa-github"></i>
+      </a>
+      {% endif %}
+      {% if author.twitter_username %}
+      <a href="https://twitter.com/{{ author.twitter_username }}" target="_blank" title="Twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+      {% endif %}
+      {% if author.facebook_username %}
+      <a href="https://facebook.com/{{ author.facebook_username }}" target="_blank" title="Facebook">
+        <i class="fa fa-facebook-official"></i>
+      </a>
+      {% endif %}
+      {% if author.youtube_username %}
+      <a href="https://www.youtube.com/user/{{ author.youtube_username }}" target="_blank" title="YouTube">
+        <i class="fa fa-youtube"></i>
+      </a>
+      {% endif %}
+      {% if author.linkedin_username %}
+      <a href="https://www.linkedin.com/in/{{ author.linkedin_username }}" target="_blank" title="LinkedIn">
+        <i class="fa fa-linkedin-square"></i>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

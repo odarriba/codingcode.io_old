@@ -10,6 +10,13 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+  <hr class="divider" />
+  {% if page.author %}
+    {% include author.html %}
+    {% if page.comments %}
+      <hr class="divider" />
+    {% endif %}
+  {% endif %}
   {% if page.comments %}
     {% include comments.html %}
   {% endif %}

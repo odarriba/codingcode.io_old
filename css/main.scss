@@ -45,6 +45,34 @@ body {
       color: #555;
     }
   }
+
+  .author {
+    .title {
+      margin-top: 0px;
+    }
+    
+    .image {
+      margin-right: 20px;
+      padding-right: 20px;
+      border-right: 1px solid #bbb;
+    }
+
+    .data {
+      .name {
+        margin: 0;
+        padding: 0;
+      }
+
+      .description {
+        font-weight: lighter;
+        font-size: 1.4em;
+      }
+
+      .social-icons {
+        font-size: 2em;
+      }
+    }
+  }
 }
 
 .footer {

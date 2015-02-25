@@ -6,14 +6,22 @@ url: "http://codingcode.io" # the base hostname & protocol of the site
 baseurl: "" # the subpath of your site, e.g. /blog/
 site_repository: "https://github.com/odarriba/codingcode.io"
 
+authors: 
+  odarriba:
+    name: "Óscar de Arriba"
+    description: "Telecommunications engineer in love with web technologies."
+    image: /assets/authors/odarriba.png
+    twitter_username: "odarriba"
+    github_username: odarriba
+    linkedin_username: "oscardearriba"
+
+# Main author (for the footer)
 author: Óscar de Arriba
 email: odarriba@gmail.com
 
 social:
   twitter_username: odarriba
   github_username: odarriba
-  facebook_username: odarriba
-  youtube_username: odarriba
   linkedin_username: oscardearriba
 
 # Build settings
