@@ -1,7 +1,7 @@
 # Site settings
 title: Coding code
 description: >
-  A blog about coding
+  Another blog about coding
 url: "http://codingcode.io" # the base hostname & protocol of the site
 baseurl: "" # the subpath of your site, e.g. /blog/
 site_repository: "https://github.com/odarriba/codingcode.io"
@@ -16,8 +16,8 @@ authors:
     linkedin_username: "oscardearriba"
 
 # Main author (for the footer)
-author: Óscar de Arriba
-email: odarriba@gmail.com
+author: "Óscar de Arriba"
+email: "odarriba@gmail.com"
 
 social:
   twitter_username: odarriba
