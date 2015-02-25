@@ -25,3 +25,4 @@ paginate_path: "blog/page:num/"
 
 # Separator to cut down the posts on index page
 excerpt_separator: "<!--more-->"
+permalink: /:year/:month/:day/:title.html

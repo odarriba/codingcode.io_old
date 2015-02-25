@@ -4,16 +4,22 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Lastest posts</h1>
+  <h1 class="page-heading"><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class='rss-link'><i class='fa fa-rss-square'></i></a>&nbsp;Lastest posts</h1>
   <hr class="divider" />
 
   {% for post in paginator.posts %}
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <h5><aside class="details">posted on the <time>{{ post.date | date_to_string }}</time></aside></h5>
+  <div class='post'>
+    <h1 class='title'><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <ol class="breadcrumb">
+      <li>Posted on <time>{{ post.date | date: "%d %B %Y" }}</time></li>
+      <li>Categories: <i>{{ post.categories | join: ', '}}</i>.</li>
+    </ol>
     <div class="content">
       {{ post.excerpt }}
     </div>
-    <a href="{{ post.url }}">Read more</a>
+    <a href="{{ post.url }}" class='btn btn-info'>READ MORE&nbsp;<i class='fa fa-chevron-right'></i></a>
+  </div>
+  <hr class='divider' />
   {% endfor %}
    
   {% include pagination.html %}

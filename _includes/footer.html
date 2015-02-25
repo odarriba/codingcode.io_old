@@ -10,30 +10,33 @@
       <div class="col-sm-4">
         <span class='social-icons'>
           {% if site.social.github_username %}
-          <a href="https://github.com/{{ site.social.github_username }}" target="_blank">
+          <a href="https://github.com/{{ site.social.github_username }}" target="_blank" title="GitHub">
           	<i class="fa fa-github"></i>
           </a>
           {% endif %}
           {% if site.social.twitter_username %}
-          <a href="https://twitter.com/{{ site.social.twitter_username }}" target="_blank">
+          <a href="https://twitter.com/{{ site.social.twitter_username }}" target="_blank" title="Twitter">
           	<i class="fa fa-twitter"></i>
           </a>
           {% endif %}
           {% if site.social.facebook_username %}
-          <a href="https://facebook.com/{{ site.social.facebook_username }}" target="_blank">
+          <a href="https://facebook.com/{{ site.social.facebook_username }}" target="_blank" title="Facebook">
           	<i class="fa fa-facebook-official"></i>
           </a>
           {% endif %}
           {% if site.social.youtube_username %}
-          <a href="https://www.youtube.com/user/{{ site.social.youtube_username }}" target="_blank">
+          <a href="https://www.youtube.com/user/{{ site.social.youtube_username }}" target="_blank" title="YouTube">
           	<i class="fa fa-youtube"></i>
           </a>
           {% endif %}
           {% if site.social.linkedin_username %}
-          <a href="https://www.linkedin.com/in/{{ site.social.linkedin_username }}" target="_blank">
+          <a href="https://www.linkedin.com/in/{{ site.social.linkedin_username }}" target="_blank" title="LinkedIn">
             <i class="fa fa-linkedin-square"></i>
           </a>
           {% endif %}
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="rss-link" title="RSS Feed">
+            <i class='fa fa-rss-square'></i>
+          </a>
         </span>
       </div>
     </div><!-- row -->
