@@ -1,3 +1,4 @@
+{% if paginator.total_pages > 1 %}
 <nav style="text-align:center;">
   <ul class='pagination'>
     {% if paginator.previous_page %}
@@ -46,3 +47,4 @@
     {% endif %}
   </ul>
 </nav>
+{% endif %}

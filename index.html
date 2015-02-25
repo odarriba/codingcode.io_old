@@ -14,7 +14,7 @@ layout: default
       <li>Posted on <time>{{ post.date | date: "%d %B %Y" }}</time></li>
       {% if page.categories %}<li>Categories: <i>{{ post.categories | join: ', '}}</i></li>{% endif %}
     </ol>
-    <div class="content">
+    <div class="post-content">
       {{ post.excerpt }}
     </div>
     <a href="{{ post.url }}" class='btn btn-sm btn-info'>READ ALL THE POST&nbsp;<i class='fa fa-chevron-right'></i></a>
