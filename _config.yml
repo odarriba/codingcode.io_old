@@ -25,4 +25,9 @@ paginate_path: "blog/page:num/"
 
 # Separator to cut down the posts on index page
 excerpt_separator: "<!--more-->"
+# Permalinks of the site
 permalink: /:year/:month/:day/:title.html
+
+# Add sitemap gem
+gems:
+  - jekyll-sitemap
