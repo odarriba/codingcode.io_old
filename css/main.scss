@@ -67,6 +67,11 @@ body {
         font-weight: lighter;
         text-transform: lowercase;
       }
+
+      a:link, a:visited, a:hover, a:active {
+        color: #fff;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -121,6 +126,21 @@ body {
         font-size: 2em;
       }
     }
+  }
+
+  .post-content {
+    font-size: 1.4em;
+
+    img {
+      padding: 4px;
+      margin: 4px;
+      border: 1px solid #aaa;
+      border-radius: 3px
+    }
+  }
+
+  .breadcrumb {
+    font-size: 1.1em;
   }
 
   .sharer {
