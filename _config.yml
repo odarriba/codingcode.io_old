@@ -31,6 +31,9 @@ social:
 # Disqus comments
 disqus_shortname: coding-code
 
+# Analytics track code
+google_analytics: UA-60202861-1
+
 # Build settings
 markdown: kramdown
 
