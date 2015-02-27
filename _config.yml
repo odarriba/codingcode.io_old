@@ -6,6 +6,7 @@ url: "http://codingcode.io" # the base hostname & protocol of the site
 baseurl: "" # the subpath of your site, e.g. /blog/
 site_repository: "https://github.com/odarriba/codingcode.io"
 
+# Authors data
 authors: 
   odarriba:
     name: "Óscar de Arriba"
@@ -19,10 +20,16 @@ authors:
 author: "Óscar de Arriba"
 email: "odarriba@gmail.com"
 
+# Social of the footer
 social:
   twitter_username: odarriba
   github_username: odarriba
+  # facebook_username:
+  # youtube_username:
   linkedin_username: oscardearriba
+
+# Disqus comments
+disqus_shortname: coding-code
 
 # Build settings
 markdown: kramdown
