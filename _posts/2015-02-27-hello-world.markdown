@@ -18,7 +18,7 @@ def print_hello_world(name)
   puts "Hello world, #{name}!"
 end
 
-puts: "What\'s your username?"
+puts "What\'s your username?"
 user_name = gets.chomp
 
 print_hello_world(username)
