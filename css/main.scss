@@ -137,6 +137,35 @@ body {
       border: 1px solid #aaa;
       border-radius: 3px
     }
+
+    img.center-block {
+      margin: 0 auto;
+    }
+
+    img.md-size {
+      max-width: 500px;
+      max-height: 500px;
+
+      @media(max-width:500+8+8+2px) {
+        max-width: 100%;   
+      }
+    }
+
+    img.sm-size {
+      max-width: 200px;
+      max-height: 200px;
+
+      @media(max-width:200+8+8+2px) {
+        max-width: 100%;   
+      }
+    }
+
+    @media(max-width:$screen-xs) {
+      img.pull-left, img.pull-right {
+        float: none !important;
+        display: block !important;
+      }
+    }
   }
 
   .breadcrumb {
