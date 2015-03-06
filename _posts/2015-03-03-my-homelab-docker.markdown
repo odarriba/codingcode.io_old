@@ -30,7 +30,7 @@ Nowadays I'm running a **Time Machine service** inside it's own docker container
 
 An important fact about Docker is that it has an **incredibly huge community** which uploads their docker containers to [Docker Hub][docker-hub], so you can take previously made containers to use them in your machine.
 
-**If you want to run virtualization and Docker isn't enough**, my recommendation is to have in mind what you need and what don't. For example, ESXi provides a better virtualization infrastructure, but it's free client is outdated and doesn't receive maintenance, so may be it's a bad option (especially if you have a *non-Windows* machine). In my case, after changing to Docker I was running the machines under Windows Server 2012, but just because of the RDP facilities.
+**If you want to run virtualization and Docker isn't enough**, my recommendation is to have in mind what you need and what don't. For example, ESXi provides a better virtualization infrastructure, but it's free client is outdated and doesn't receive maintenance, so may be it's a bad option (especially if you have a *non-Windows* machine). In my case, before changing to Docker I was running the machines under Windows Server 2012, but just because of the RDP facilities.
 
 [celeronspecs]:	http://ark.intel.com/products/71074/Intel-Celeron-Processor-G1610T-2M-Cache-2_30-GHz
 [hpmicro]:	http://www8.hp.com/uk/en/products/proliant-servers/product-detail.html?oid=5384977&jumpid=reg_r1002_uken_c-001_title_r0002
