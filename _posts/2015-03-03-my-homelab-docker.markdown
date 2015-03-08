@@ -4,6 +4,7 @@ title:  "My homelab server and why I'm using docker"
 date:   2015-03-03 13:00:00
 author: odarriba
 comments: true
+image: /assets/posts/docker.jpg
 tags: homelab hp microserver gen8 docker virtualization
 ---
 
