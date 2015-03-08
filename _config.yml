@@ -1,7 +1,6 @@
 # Site settings
 title: Coding code
-description: >
-  Another blog about coding
+description: Another blog about coding
 url: "http://codingcode.io" # the base hostname & protocol of the site
 baseurl: "" # the subpath of your site, e.g. /blog/
 site_repository: "https://github.com/odarriba/codingcode.io"

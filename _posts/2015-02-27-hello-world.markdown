@@ -4,7 +4,7 @@ title:  "Hello World!"
 date:   2015-02-27 17:00:00
 author: odarriba
 comments: true
-categories: blog
+tags: blog
 ---
 This is the first blog entry in this blog, **which aim is to share different problems and the source code of the solution** made.
 

@@ -5,7 +5,7 @@ layout: default
   <h1 class="title">{{ page.title }}</h1>
   <ol class="breadcrumb">
     <li>Posted on <time>{{ page.date | date: "%d %B %Y" }}</time></li>
-    {% if page.categories %}<li>Categories: <i>{{ page.categories | join: ', '}}</i></li>{% endif %}
+    {% if page.tags %}<li>Tags: <i>{{ page.tags | join: ', '}}</i></li>{% endif %}
   </ol>
   <div class="post-content">
     {{ content }}

@@ -4,7 +4,7 @@ title:  "Reasons to choose Jekyll over Wordpress"
 date:   2015-02-28 12:00:00
 author: odarriba
 comments: true
-categories: jekyll wordpress blogging platform
+tags: jekyll wordpress blogging platform
 ---
 <img src="/assets/posts/jekyll.png" class="pull-right" style="max-width:300px;" />
 

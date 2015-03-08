@@ -4,7 +4,7 @@ title:  "How to translate Mongoid model names"
 date:   2015-03-08 17:15:00
 author: odarriba
 comments: true
-categories: mongoid ruby-on-rails translation
+tags: mongoid ruby-on-rails translation
 ---
 
 If you worked with **MongoDB in a Ruby on Rails application**, you should have used a gem called [Mongoid][mongoid], which is a ODM (*Object Document Mapper*) that allows you to work with Mongo documents as native objects directly.

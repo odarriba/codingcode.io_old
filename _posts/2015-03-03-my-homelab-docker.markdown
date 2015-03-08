@@ -4,7 +4,7 @@ title:  "My homelab server and why I'm using docker"
 date:   2015-03-03 13:00:00
 author: odarriba
 comments: true
-categories: homelab hp microserver gen8 docker virtualization
+tags: homelab hp microserver gen8 docker virtualization
 ---
 
 **I've ever had a do-it-yourself mind.** And according to that and my love for sysadmin stuff, I've ben running my own homelab server since approximately a year and a half ago.
