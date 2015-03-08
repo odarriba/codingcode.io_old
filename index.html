@@ -12,7 +12,7 @@ layout: default
     <h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <ol class="breadcrumb">
       <li>Posted on <time>{{ post.date | date: "%d %B %Y" }}</time></li>
-      {% if page.categories %}<li>Categories: <i>{{ post.categories | join: ', '}}</i></li>{% endif %}
+      {% if post.categories %}<li>Categories: <i>{{ post.categories | join: ', '}}</i></li>{% endif %}
     </ol>
     <div class="post-content">
       {{ post.excerpt }}
