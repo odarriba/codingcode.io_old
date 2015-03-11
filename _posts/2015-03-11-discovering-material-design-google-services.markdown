@@ -4,6 +4,7 @@ title:  "Discovering Material Design and Google services"
 date:   2015-03-11 21:15:00
 author: odarriba
 comments: true
+image: /assets/posts/google-platform.png
 tags: google services developers
 ---
 
