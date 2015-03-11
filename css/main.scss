@@ -160,6 +160,15 @@ body {
       }
     }
 
+    img.xs-size {
+      max-width: 150px;
+      max-height: 150px;
+
+      @media(max-width:150+8+8+2px) {
+        max-width: 100%;   
+      }
+    }
+
     @media(max-width:$screen-xs) {
       img.pull-left, img.pull-right {
         float: none !important;
