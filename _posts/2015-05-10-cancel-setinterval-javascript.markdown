@@ -11,7 +11,7 @@ tags: howto javascript setinterval
 <img class='pull-right xs-size' src='/assets/posts/javascript.png' />
 During the development of my degree final project, I had the necessity of cancel a previously set interval in Javascript. To anyone who doesn't know what this is, a `setInterval` operation allows the programmer set a period in which the task is executed. 
 
-Searching a bit on the Internet I found a post in [StackOverflow](stackoverflow) that shows various possible options to cancel (or simulate a cancellation) of a `setInterval` operation, but the most correct one could be something like this:
+Searching a bit on the Internet I found a post in [StackOverflow][stackoverflow] that shows various possible options to cancel (or simulate a cancellation) of a `setInterval` operation, but the most correct one could be something like this:
 
 {% highlight javascript %}
 function myFunction() {
