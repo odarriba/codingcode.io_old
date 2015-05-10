@@ -23,7 +23,7 @@ function myFunction() {
 
 var interval = myFunction();
 
-// Do more stuf....
+// Do more stuff....
 
 // Clear the interval
 clearInterval(interval);
