@@ -11,7 +11,7 @@ tags: javascript learning nodejs scratch
 <img class='pull-right xs-size' src='/assets/posts/nodejs.png' />
 Now that I'm ending my degree studies, my plan is to learn **NodeJS** during summer in order to improve my development skills, so I started last week finding out some documentation.
 
-Thanks to a fellow (thanks [Pedro][pmareke]!) I reached this document, titled ['The Node Beginner Book'][nodebook], which guide you to do a basic upload tool. **Also, it do a successful guidance through some basic aspects of JavaScript** (like *function objects*) **or even some basic web methodologies**, like using a router for petitions, request handlers, etc.
+Thanks to a fellow (thanks [Pedro][pmareke]!) I reached this document, titled ['The Node Beginner Book'][nodebook], which guide you to do a basic upload tool. **Also, it does a successful guidance through some basic aspects of JavaScript** (like *function objects*) **or even some basic web methodologies**, like using a router for petitions, request handlers, etc.
 
 I think that this book is a very good place to start (and available online!) so if anyone want to start on NodeJS world, this is in my opinion a good place to start.
 
